@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+background-color: rgb(255, 113, 113);
+display: flex;
+justify-content: center;
+}
+ul{
+  list-style: none;
+}
+.App{
+  background-color: white;
+  padding: 30px;
+  margin-top: 40px;
+}
+.App h1{
+  background-color:rgb(255, 113, 113) ;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.App form input[type="text"]{
+  width: 400px;
+  height: 30px;
+  background-color: rgb(238, 238, 238);
+  border: none;
+  margin-bottom: 20px;
+}
+.App form input[type="text"]:focus{
+outline: none;
+}
+.App form input[type="submit"],.App form .btn{
+  width: 100px;
+  height: 30px;
+  background-color: rgb(67, 255, 167);
+  border: none;
+  cursor: pointer;
+}
+
+.App ul li{
+ display: flex;
+ justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.App ul button{
+  width: 100px;
+  height: 30px;
+  background-color: rgb(255, 67, 67);
+  border: none;
+  cursor: pointer;
+}
